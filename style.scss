@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+$base00: #181818;
+$base01: #282828;
+$base02: #383838;
+$base03: #585858;
+$base04: #b8b8b8;
+$base05: #d8d8d8;
+$base06: #e8e8e8;
+$base07: #f8f8f8;
+$base08: #ab4642;
+$base09: #dc9656;
+$base0A: #f7ca88;
+$base0B: #a1b56c;
+$base0C: #86c1b9;
+$base0D: #7cafc2;
+$base0E: #ba8baf;
+$base0F: #a16946;
+
+$base07T: #f8f8f86F;
+$base08T: #ab4642BB;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: url("http://bsnscb.com/data/out/44/39738121-cool-subtle-wallpapers.jpg");
+    color: $base00;
+    line-height: 1.5;
+}
+
+.box {
+    border: 2px solid $base00;
+}
+
+.container-fluid {
+    padding: 0;
+    background-color: $base07T;
+    height: 100%;
+    //border-left: 1px solid $base00;
+    //border-right: 1px solid $base00;
+}
+
+#navbar {
+    background-color: $base02;
+    color: $base07;
+    margin: 0 auto;
+    font-size: 20px;
+    //border-bottom: 1px solid $base00;
+    padding: 20px 0 20px 20px;
+
+    ul {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    li {
+        padding-right: 50px;
+
+        .active {
+            background-color: $base07;
+            border-radius: 2px;
+            color: $base00;
+        }
+
+        .disabled {
+            color: $base03;
+        }
+    }
+
+    a {
+        color: $base07;
+        border-radius: 2px;
+        transition: 0.3s ease-in, color 0.2s ease-in;
+    }
+
+    a:hover {
+        background-color: $base0C;
+        color: $base00;
+        transition: background-color 0.3s ease-in, color 0.1s ease-in;
+    }
+}
+
+#name {
+    padding-top: 20px;
+    font-size: 3em;
+    font-family: "Crete Round", serif;
+}
+
+hr {
+    border: 1.5px solid $base00;
+}
+
+p {
+    font-size: 18px;
+}
+
+#classes {
+    margin: 0 5% 0 5%;
+}
+
+#projects {
+    .btn {
+        font-size: 18px;
+        vertical-align: top;
+    }
+}
+
+.invert {
+    filter: invert(100%);
+}
