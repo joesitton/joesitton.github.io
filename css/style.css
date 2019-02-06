@@ -21,28 +21,37 @@ body {
   background-color: #f8f8f86F;
   height: 100%; }
 
-#navbar {
+.bg-dark {
+  background-color: #383838 !important; }
+
+.nav-link {
+  margin: 0 auto; }
+
+#mynavbar {
   background-color: #383838;
   color: #f8f8f8;
   margin: 0 auto;
   font-size: 20px;
   padding: 20px 0 20px 20px; }
-  #navbar ul {
+  #mynavbar ul {
     text-align: center;
     margin: 0 auto; }
-  #navbar li {
-    padding-right: 50px; }
-    #navbar li .active {
+  #mynavbar li {
+    padding-right: 50px;
+    margin: 2.5px 0 2.5px 0; }
+    #mynavbar li .active {
       background-color: #f8f8f8;
       border-radius: 2px;
-      color: #181818; }
-    #navbar li .disabled {
+      color: #181818;
+      max-width: 120px; }
+    #mynavbar li .disabled {
       color: #585858; }
-  #navbar a {
+  #mynavbar a {
     color: #f8f8f8;
     border-radius: 2px;
-    transition: 0.3s ease-in, color 0.2s ease-in; }
-  #navbar a:hover {
+    transition: 0.3s ease-in, color 0.2s ease-in;
+    max-width: 120px; }
+  #mynavbar a:hover {
     background-color: #86c1b9;
     color: #181818;
     transition: background-color 0.3s ease-in, color 0.1s ease-in; }

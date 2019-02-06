@@ -49,7 +49,15 @@ body {
     //border-right: 1px solid $base00;
 }
 
-#navbar {
+.bg-dark {
+    background-color: $base02 !important;
+}
+
+.nav-link {
+    margin: 0 auto;
+}
+
+#mynavbar {
     background-color: $base02;
     color: $base07;
     margin: 0 auto;
@@ -64,11 +72,13 @@ body {
 
     li {
         padding-right: 50px;
+        margin: 2.5px 0 2.5px 0;
 
         .active {
             background-color: $base07;
             border-radius: 2px;
             color: $base00;
+            max-width: 120px;
         }
 
         .disabled {
@@ -80,12 +90,14 @@ body {
         color: $base07;
         border-radius: 2px;
         transition: 0.3s ease-in, color 0.2s ease-in;
+        max-width: 120px;
     }
 
     a:hover {
         background-color: $base0C;
         color: $base00;
         transition: background-color 0.3s ease-in, color 0.1s ease-in;
+        //max-width: 120px;
     }
 }
 
