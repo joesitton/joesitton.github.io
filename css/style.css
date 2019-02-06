@@ -8,17 +8,15 @@ html {
   height: 100%; }
 
 body {
-  height: 100%;
-  background-image: url("http://bsnscb.com/data/out/44/39738121-cool-subtle-wallpapers.jpg");
   color: #181818;
-  line-height: 1.5; }
+  background-color: #f8f8f8; }
 
 .box {
   border: 2px solid #181818; }
 
 .container-fluid {
   padding: 0;
-  background-color: #f8f8f86F;
+  background-color: #f8f8f8;
   height: 100%; }
 
 .bg-dark {
@@ -27,30 +25,31 @@ body {
 .nav-link {
   margin: 0 auto; }
 
+.navbar-toggler {
+  margin-right: 20px; }
+
 #mynavbar {
   background-color: #383838;
   color: #f8f8f8;
-  margin: 0 auto;
-  font-size: 20px;
-  padding: 20px 0 20px 20px; }
+  font-size: 24px;
+  padding: 10px 0 10px 10px; }
   #mynavbar ul {
     text-align: center;
-    margin: 0 auto; }
+    padding-left: 50px; }
   #mynavbar li {
     padding-right: 50px;
     margin: 2.5px 0 2.5px 0; }
     #mynavbar li .active {
       background-color: #f8f8f8;
       border-radius: 2px;
-      color: #181818;
-      max-width: 120px; }
+      color: #181818; }
     #mynavbar li .disabled {
       color: #585858; }
   #mynavbar a {
     color: #f8f8f8;
     border-radius: 2px;
     transition: 0.3s ease-in, color 0.2s ease-in;
-    max-width: 120px; }
+    max-width: 200px; }
   #mynavbar a:hover {
     background-color: #86c1b9;
     color: #181818;
@@ -62,7 +61,7 @@ body {
   font-family: "Crete Round", serif; }
 
 hr {
-  border: 1.5px solid #181818; }
+  background-color: #181818; }
 
 p {
   font-size: 18px; }
@@ -76,5 +75,16 @@ p {
 
 .invert {
   filter: invert(100%); }
+
+#me {
+  border: 1px solid #181818;
+  border-radius: 50%;
+  transform: scaleX(-1); }
+
+#gallery {
+  text-align: center; }
+  #gallery .gal-photo {
+    max-width: 500px;
+    max-height: auto; }
 
 /*# sourceMappingURL=style.css.map */

@@ -18,9 +18,6 @@ $base0D: #7cafc2;
 $base0E: #ba8baf;
 $base0F: #a16946;
 
-$base07T: #f8f8f86F;
-$base08T: #ab4642BB;
-
 * {
     margin: 0;
     padding: 0;
@@ -31,10 +28,8 @@ html {
 }
 
 body {
-    height: 100%;
-    background-image: url("http://bsnscb.com/data/out/44/39738121-cool-subtle-wallpapers.jpg");
     color: $base00;
-    line-height: 1.5;
+    background-color: $base07;
 }
 
 .box {
@@ -43,7 +38,7 @@ body {
 
 .container-fluid {
     padding: 0;
-    background-color: $base07T;
+    background-color: $base07;
     height: 100%;
     //border-left: 1px solid $base00;
     //border-right: 1px solid $base00;
@@ -57,17 +52,20 @@ body {
     margin: 0 auto;
 }
 
+.navbar-toggler {
+    margin-right: 20px;
+}
+
 #mynavbar {
     background-color: $base02;
     color: $base07;
-    margin: 0 auto;
-    font-size: 20px;
+    font-size: 24px;
     //border-bottom: 1px solid $base00;
-    padding: 20px 0 20px 20px;
+    padding: 10px 0 10px 10px;
 
     ul {
         text-align: center;
-        margin: 0 auto;
+        padding-left: 50px;
     }
 
     li {
@@ -78,7 +76,6 @@ body {
             background-color: $base07;
             border-radius: 2px;
             color: $base00;
-            max-width: 120px;
         }
 
         .disabled {
@@ -90,14 +87,13 @@ body {
         color: $base07;
         border-radius: 2px;
         transition: 0.3s ease-in, color 0.2s ease-in;
-        max-width: 120px;
+        max-width: 200px;
     }
 
     a:hover {
         background-color: $base0C;
         color: $base00;
         transition: background-color 0.3s ease-in, color 0.1s ease-in;
-        //max-width: 120px;
     }
 }
 
@@ -108,7 +104,7 @@ body {
 }
 
 hr {
-    border: 1.5px solid $base00;
+    background-color: $base00;
 }
 
 p {
@@ -128,4 +124,19 @@ p {
 
 .invert {
     filter: invert(100%);
+}
+
+#me {
+    border: 1px solid $base00;
+    border-radius: 50%;
+    transform: scaleX(-1);
+}
+
+#gallery {
+    text-align: center;
+
+    .gal-photo {
+        max-width: 500px;
+        max-height: auto;
+    }
 }
