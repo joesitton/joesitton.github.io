@@ -31,13 +31,13 @@ body {
 #mynavbar {
   background-color: #383838;
   color: #f8f8f8;
-  font-size: 24px;
+  font-size: 18px;
   padding: 10px 0 10px 10px; }
   #mynavbar ul {
     text-align: center;
     padding-left: 50px; }
   #mynavbar li {
-    padding-right: 50px;
+    padding-right: 25px;
     margin: 2.5px 0 2.5px 0; }
     #mynavbar li .active {
       background-color: #f8f8f8;
@@ -78,7 +78,6 @@ p {
 
 #me {
   border: 1px solid #181818;
-  border-radius: 50%;
   transform: scaleX(-1); }
 
 #gallery {

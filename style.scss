@@ -59,8 +59,7 @@ body {
 #mynavbar {
     background-color: $base02;
     color: $base07;
-    font-size: 24px;
-    //border-bottom: 1px solid $base00;
+    font-size: 18px;
     padding: 10px 0 10px 10px;
 
     ul {
@@ -69,7 +68,7 @@ body {
     }
 
     li {
-        padding-right: 50px;
+        padding-right: 25px;
         margin: 2.5px 0 2.5px 0;
 
         .active {
@@ -128,7 +127,6 @@ p {
 
 #me {
     border: 1px solid $base00;
-    border-radius: 50%;
     transform: scaleX(-1);
 }
 
